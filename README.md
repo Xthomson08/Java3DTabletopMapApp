@@ -3,8 +3,15 @@ Team Dowitcher's 3-D Tabletop RPG Game Board Editor
 
 An application to design 3D game boards for use with tabletop rpgs. 
 
-Presentation slides: https://docs.google.com/presentation/d/1CvMhUZgxgGUkjQDnCdJ8LcC1CsJnP9J_fzuAuqceTFo/edit?usp=sharing
+Presentation slides: https://docs.google.com/presentation/d/1CvMhUZgxgGUkjQDnCdJ8LcC1CsJnP9J_fzuAuqceTFo/edit?usp=sharing\
 
+Created by Xander Thomson, Noah Rettig, Anna Boardman, Yazid Mouayn
+
+Collaborator Profiles: 
+Xander: https://github.com/Xthomson08 
+Noah: https://github.com/noahrettig 
+Anna: https://github.com/akboard
+Yazid: https://github.com/YAZ1D
 
 Version 1.0 Release Notes
 
