@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.SeparatorMenuItem?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane prefHeight="700.0" prefWidth="1500.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.augustana.Dowitcher3DTTEditor.EditorScreenController">
+   <children>
+      <BorderPane minHeight="430.0" minWidth="820.0">
+         <left>
+            <VBox alignment="CENTER" prefHeight="700.0" prefWidth="400.0" spacing="10.0" style=" -fx-border-color:lightgrey; -fx-border-width: 1; -fx-border-style: solid;" BorderPane.alignment="CENTER">
+               <children>
+                  <HBox prefHeight="70.0" prefWidth="398.0">
+                     <children>
+                        <GridPane prefHeight="96.0" prefWidth="399.0">
+                          <columnConstraints>
+                            <ColumnConstraints hgrow="SOMETIMES" maxWidth="195.20001220703125" minWidth="10.0" prefWidth="160.6" />
+                            <ColumnConstraints hgrow="SOMETIMES" maxWidth="238.19999999999996" minWidth="10.0" prefWidth="238.19999999999996" />
+                          </columnConstraints>
+                          <rowConstraints>
+                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                          </rowConstraints>
+                           <children>
+                              <RadioButton fx:id="addRemoveRadio" mnemonicParsing="false" text="Add / Remove Tiles">
+                                 <padding>
+                                    <Insets left="15.0" />
+                                 </padding>
+                              </RadioButton>
+                              <RadioButton fx:id="selectTileRadio" mnemonicParsing="false" prefHeight="18.0" prefWidth="197.0" text="Select" GridPane.columnIndex="1">
+                                 <padding>
+                                    <Insets left="90.0" />
+                                 </padding>
+                              </RadioButton>
+                              <Label prefHeight="18.0" prefWidth="274.0" text="Left-Click for Single Selection" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                                 <padding>
+                                    <Insets left="42.0" />
+                                 </padding>
+                              </Label>
+                              <Label prefHeight="18.0" prefWidth="270.0" text="Right-Click-And-Drag for Multiple Selection" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                              <Button fx:id="fillSelectedAreaButton" mnemonicParsing="false" onAction="#fillSelectedAreaAction" text="Add in selected Area" GridPane.rowIndex="1">
+                                 <GridPane.margin>
+                                    <Insets left="15.0" />
+                                 </GridPane.margin>
+                              </Button>
+                              <Button fx:id="removeInSelectionButton" layoutX="40.0" layoutY="32.0" mnemonicParsing="false" onAction="#removeInSelectionAction" text="Remove in selected Area" GridPane.rowIndex="2">
+                                 <GridPane.margin>
+                                    <Insets left="5.0" top="10.0" />
+                                 </GridPane.margin>
+                              </Button>
+                           </children>
+                        </GridPane>
+                     </children>
+                  </HBox>
+                  <Button fx:id="PointyTileButton" layoutX="172.0" layoutY="244.0" mnemonicParsing="false" onAction="#makeTilesPointyAction" text="Pointy Tiles" />
+                  <Button fx:id="raiseTileButton" mnemonicParsing="false" onAction="#raiseSelectedTilesAction" text="Raise Tiles" />
+                  <Button fx:id="lowerTileButton" mnemonicParsing="false" onAction="#lowerSelectedTilesAction" text="Lower Tiles" />
+                  <Label alignment="CENTER" contentDisplay="CENTER" text="Tile Height">
+                     <padding>
+                        <Insets bottom="-10.0" />
+                     </padding>
+                  </Label>
+                  <Slider fx:id="heightSlider" showTickLabels="true" showTickMarks="true">
+                     <padding>
+                        <Insets left="20.0" right="20.0" />
+                     </padding></Slider>
+                  <Button fx:id="selectAll" layoutX="171.0" layoutY="385.0" mnemonicParsing="false" onAction="#selectAllAction" text="Select All" />
+                  <Button fx:id="deselectAll" mnemonicParsing="false" onAction="#deselectAllAction" text="Deselect All" />
+                  <GridPane alignment="CENTER">
+                    <columnConstraints>
+                      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                    </columnConstraints>
+                    <rowConstraints>
+                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                    </rowConstraints>
+                     <children>
+                        <Button alignment="CENTER" mnemonicParsing="false" onAction="#addRowAction" text="Add Row">
+                           <GridPane.margin>
+                              <Insets left="66.0" />
+                           </GridPane.margin></Button>
+                        <Button alignment="CENTER" mnemonicParsing="false" onAction="#removeRowAction" text="Remove Row" GridPane.columnIndex="1">
+                           <GridPane.margin>
+                              <Insets left="55.0" />
+                           </GridPane.margin></Button>
+                        <Button alignment="CENTER" mnemonicParsing="false" onAction="#addColumnAction" text="Add Column" GridPane.rowIndex="1">
+                           <GridPane.margin>
+                              <Insets left="57.0" />
+                           </GridPane.margin></Button>
+                        <Button alignment="CENTER" mnemonicParsing="false" onAction="#removeColumnAction" text="Remove Column" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                           <GridPane.margin>
+                              <Insets left="46.0" />
+                           </GridPane.margin></Button>
+                     </children>
+                  </GridPane>
+                  <Button mnemonicParsing="false" onAction="#undoAction" text="Undo" />
+                  <Button mnemonicParsing="false" onAction="#redoAction" text="Redo" />
+                  <Button fx:id="backButton" mnemonicParsing="false" onAction="#backToSizeSelector" text="Back" translateY="80.0" />
+               </children>
+            </VBox>
+         </left>
+         <top>
+            <MenuBar prefWidth="1500.0" BorderPane.alignment="CENTER">
+              <menus>
+                <Menu mnemonicParsing="false" text="File">
+                  <items>
+                        <MenuItem mnemonicParsing="false" onAction="#saveAction" text="Save" />
+                        <MenuItem mnemonicParsing="false" onAction="#saveAsAction" text="Save As..." />
+                        <MenuItem mnemonicParsing="false" onAction="#exportOBJAction" text="Export" />
+                    <MenuItem mnemonicParsing="false" onAction="#quitAction" text="Quit" />
+                  </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Edit">
+                  <items>
+                    <MenuItem mnemonicParsing="false" onAction="#clearAllAction" text="Clear All" />
+                        <SeparatorMenuItem mnemonicParsing="false" />
+                        <MenuItem mnemonicParsing="false" onAction="#randomizeMapAction" text="Randomize" />
+                        <MenuItem mnemonicParsing="false" onAction="#randomMazeAction" text="Random Maze" />
+                        <SeparatorMenuItem mnemonicParsing="false" />
+                        <MenuItem mnemonicParsing="false" onAction="#undoAction" text="Undo" />
+                        <MenuItem mnemonicParsing="false" onAction="#redoAction" text="Redo" />
+                  </items>
+                </Menu>
+                  <Menu mnemonicParsing="false" text="View">
+                    <items>
+                      <MenuItem mnemonicParsing="false" onAction="#view3D" text="3DView" />
+                    </items>
+                  </Menu>
+                <Menu mnemonicParsing="false" text="Help">
+                  <items>
+                    <MenuItem mnemonicParsing="false" onAction="#aboutScreen" text="About" />
+                  </items>
+                </Menu>
+              </menus>
+            </MenuBar>
+         </top>
+         <center>
+            <ScrollPane fx:id="paneToHoldCanvas" hbarPolicy="ALWAYS" pannable="true" prefHeight="200.0" prefWidth="200.0" vbarPolicy="ALWAYS" BorderPane.alignment="CENTER" />
+         </center>
+      </BorderPane>
+   </children>
+</AnchorPane>

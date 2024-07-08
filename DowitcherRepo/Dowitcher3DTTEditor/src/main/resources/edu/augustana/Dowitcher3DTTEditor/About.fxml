@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <VBox alignment="CENTER" prefHeight="400.0" prefWidth="600.0" spacing="20.0">
+         <children>
+            <Label text="Dowitcher3DTTRPG Editor">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <TextArea fx:id="aboutVBox" editable="false" prefHeight="300.0" prefWidth="200.0" text="Team Dowitcher 3D Table Top Game Board Editor. &#10;Made for CSC 305 at Augustana College. &#10;&#10;Team Dowitcher Members: &#10;Anna Boardman &#10;Yazid Mouayn&#10;Noah Rettig &#10;Xander Thomson&#10;&#10;Project Supervisor: Forrest Stonedahl&#10;&#10;Thank you for using our program!!!&#10;&#10;Special Acknowledgements:&#10;Google's GSON library for file I/O" wrapText="true" />
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

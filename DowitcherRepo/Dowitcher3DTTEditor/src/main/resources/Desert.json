@@ -1,0 +1,825 @@
+{
+  "tiles": [
+    [
+      {
+        "exists": true,
+        "zElevation": 39.06976921613826,
+        "xIndex": 0,
+        "yIndex": 0,
+        "shapeType": "SQUARE",
+        "isPointy": false
+      },
+      {
+        "exists": true,
+        "zElevation": 39.06976921613826,
+        "xIndex": 1,
+        "yIndex": 0,
+        "shapeType": "SQUARE",
+        "isPointy": false
+      },
+      {
+        "exists": true,
+        "zElevation": 39.06976921613826,
+        "xIndex": 2,
+        "yIndex": 0,
+        "shapeType": "SQUARE",
+        "isPointy": false
+      },
+      {
+        "exists": true,
+        "zElevation": 39.06976921613826,
+        "xIndex": 3,
+        "yIndex": 0,
+        "shapeType": "SQUARE",
+        "isPointy": false
+      },
+      {
+        "exists": true,
+        "zElevation": 39.06976921613826,
+        "xIndex": 4,
+        "yIndex": 0,
+        "shapeType": "SQUARE",
+        "isPointy": false
+      },
+      {
+        "exists": true,
+        "zElevation": 39.06976921613826,
+        "xIndex": 5,
+        "yIndex": 0,
+        "shapeType": "SQUARE",
+        "isPointy": false
+      },
+      {
+        "exists": true,
+        "zElevation": 39.06976921613826,
+        "xIndex": 6,
+        "yIndex": 0,
+        "shapeType": "SQUARE",
+        "isPointy": false
+      },
+      {
+        "exists": true,
+        "zElevation": 39.06976921613826,
+        "xIndex": 7,
+        "yIndex": 0,
+        "shapeType": "SQUARE",
+        "isPointy": false
+      },
+      {
+        "exists": true,
+        "zElevation": 39.06976921613826,
+        "xIndex": 8,
+        "yIndex": 0,
+        "shapeType": "SQUARE",
+        "isPointy": false
+      },
+      {
+        "exists": true,
+        "zElevation": 39.06976921613826,
+        "xIndex": 9,
+        "yIndex": 0,
+        "shapeType": "SQUARE",
+        "isPointy": false
+      }
+    ],
+    [
+      {
+        "exists": true,
+        "zElevation": 39.06976921613826,
+        "xIndex": 0,
+        "yIndex": 1,
+        "shapeType": "SQUARE",
+        "isPointy": false
+      },
+      {
+        "exists": true,
+        "zElevation": 39.06976921613826,
+        "xIndex": 1,
+        "yIndex": 1,
+        "shapeType": "SQUARE",
+        "isPointy": false
+      },
+      {
+        "exists": true,
+        "zElevation": 39.06976921613826,
+        "xIndex": 2,
+        "yIndex": 1,
+        "shapeType": "SQUARE",
+        "isPointy": false
+      },
+      {
+        "exists": true,
+        "zElevation": 39.06976921613826,
+        "xIndex": 3,
+        "yIndex": 1,
+        "shapeType": "SQUARE",
+        "isPointy": false
+      },
+      {
+        "exists": true,
+        "zElevation": 39.06976921613826,
+        "xIndex": 4,
+        "yIndex": 1,
+        "shapeType": "SQUARE",
+        "isPointy": false
+      },
+      {
+        "exists": true,
+        "zElevation": 39.06976921613826,
+        "xIndex": 5,
+        "yIndex": 1,
+        "shapeType": "SQUARE",
+        "isPointy": false
+      },
+      {
+        "exists": true,
+        "zElevation": 39.06976921613826,
+        "xIndex": 6,
+        "yIndex": 1,
+        "shapeType": "SQUARE",
+        "isPointy": false
+      },
+      {
+        "exists": true,
+        "zElevation": 39.06976921613826,
+        "xIndex": 7,
+        "yIndex": 1,
+        "shapeType": "SQUARE",
+        "isPointy": false
+      },
+      {
+        "exists": true,
+        "zElevation": 39.06976921613826,
+        "xIndex": 8,
+        "yIndex": 1,
+        "shapeType": "SQUARE",
+        "isPointy": false
+      },
+      {
+        "exists": true,
+        "zElevation": 39.06976921613826,
+        "xIndex": 9,
+        "yIndex": 1,
+        "shapeType": "SQUARE",
+        "isPointy": false
+      }
+    ],
+    [
+      {
+        "exists": true,
+        "zElevation": 29.0697687725688,
+        "xIndex": 0,
+        "yIndex": 2,
+        "shapeType": "SQUARE",
+        "isPointy": false
+      },
+      {
+        "exists": true,
+        "zElevation": 29.0697687725688,
+        "xIndex": 1,
+        "yIndex": 2,
+        "shapeType": "SQUARE",
+        "isPointy": false
+      },
+      {
+        "exists": true,
+        "zElevation": 29.0697687725688,
+        "xIndex": 2,
+        "yIndex": 2,
+        "shapeType": "SQUARE",
+        "isPointy": false
+      },
+      {
+        "exists": true,
+        "zElevation": 29.0697687725688,
+        "xIndex": 3,
+        "yIndex": 2,
+        "shapeType": "SQUARE",
+        "isPointy": false
+      },
+      {
+        "exists": true,
+        "zElevation": 29.0697687725688,
+        "xIndex": 4,
+        "yIndex": 2,
+        "shapeType": "SQUARE",
+        "isPointy": false
+      },
+      {
+        "exists": true,
+        "zElevation": 29.0697687725688,
+        "xIndex": 5,
+        "yIndex": 2,
+        "shapeType": "SQUARE",
+        "isPointy": false
+      },
+      {
+        "exists": true,
+        "zElevation": 29.0697687725688,
+        "xIndex": 6,
+        "yIndex": 2,
+        "shapeType": "SQUARE",
+        "isPointy": false
+      },
+      {
+        "exists": true,
+        "zElevation": 29.0697687725688,
+        "xIndex": 7,
+        "yIndex": 2,
+        "shapeType": "SQUARE",
+        "isPointy": false
+      },
+      {
+        "exists": true,
+        "zElevation": 39.06976921613826,
+        "xIndex": 8,
+        "yIndex": 2,
+        "shapeType": "SQUARE",
+        "isPointy": false
+      },
+      {
+        "exists": true,
+        "zElevation": 39.06976921613826,
+        "xIndex": 9,
+        "yIndex": 2,
+        "shapeType": "SQUARE",
+        "isPointy": false
+      }
+    ],
+    [
+      {
+        "exists": true,
+        "zElevation": 29.0697687725688,
+        "xIndex": 0,
+        "yIndex": 3,
+        "shapeType": "SQUARE",
+        "isPointy": false
+      },
+      {
+        "exists": true,
+        "zElevation": 29.0697687725688,
+        "xIndex": 1,
+        "yIndex": 3,
+        "shapeType": "SQUARE",
+        "isPointy": false
+      },
+      {
+        "exists": true,
+        "zElevation": 29.0697687725688,
+        "xIndex": 2,
+        "yIndex": 3,
+        "shapeType": "SQUARE",
+        "isPointy": false
+      },
+      {
+        "exists": true,
+        "zElevation": 29.0697687725688,
+        "xIndex": 3,
+        "yIndex": 3,
+        "shapeType": "SQUARE",
+        "isPointy": false
+      },
+      {
+        "exists": true,
+        "zElevation": 29.0697687725688,
+        "xIndex": 4,
+        "yIndex": 3,
+        "shapeType": "SQUARE",
+        "isPointy": false
+      },
+      {
+        "exists": true,
+        "zElevation": 29.0697687725688,
+        "xIndex": 5,
+        "yIndex": 3,
+        "shapeType": "SQUARE",
+        "isPointy": false
+      },
+      {
+        "exists": true,
+        "zElevation": 29.0697687725688,
+        "xIndex": 6,
+        "yIndex": 3,
+        "shapeType": "SQUARE",
+        "isPointy": false
+      },
+      {
+        "exists": true,
+        "zElevation": 29.0697687725688,
+        "xIndex": 7,
+        "yIndex": 3,
+        "shapeType": "SQUARE",
+        "isPointy": false
+      },
+      {
+        "exists": true,
+        "zElevation": 39.06976921613826,
+        "xIndex": 8,
+        "yIndex": 3,
+        "shapeType": "SQUARE",
+        "isPointy": false
+      },
+      {
+        "exists": true,
+        "zElevation": 39.06976921613826,
+        "xIndex": 9,
+        "yIndex": 3,
+        "shapeType": "SQUARE",
+        "isPointy": false
+      }
+    ],
+    [
+      {
+        "exists": true,
+        "zElevation": 49.99999911286109,
+        "xIndex": 0,
+        "yIndex": 4,
+        "shapeType": "SQUARE",
+        "isPointy": false
+      },
+      {
+        "exists": true,
+        "zElevation": 49.99999911286109,
+        "xIndex": 1,
+        "yIndex": 4,
+        "shapeType": "SQUARE",
+        "isPointy": false
+      },
+      {
+        "exists": true,
+        "zElevation": 49.99999911286109,
+        "xIndex": 2,
+        "yIndex": 4,
+        "shapeType": "SQUARE",
+        "isPointy": false
+      },
+      {
+        "exists": true,
+        "zElevation": 49.99999911286109,
+        "xIndex": 3,
+        "yIndex": 4,
+        "shapeType": "SQUARE",
+        "isPointy": false
+      },
+      {
+        "exists": true,
+        "zElevation": 49.99999911286109,
+        "xIndex": 4,
+        "yIndex": 4,
+        "shapeType": "SQUARE",
+        "isPointy": false
+      },
+      {
+        "exists": true,
+        "zElevation": 49.99999911286109,
+        "xIndex": 5,
+        "yIndex": 4,
+        "shapeType": "SQUARE",
+        "isPointy": false
+      },
+      {
+        "exists": true,
+        "zElevation": 29.0697687725688,
+        "xIndex": 6,
+        "yIndex": 4,
+        "shapeType": "SQUARE",
+        "isPointy": false
+      },
+      {
+        "exists": true,
+        "zElevation": 29.0697687725688,
+        "xIndex": 7,
+        "yIndex": 4,
+        "shapeType": "SQUARE",
+        "isPointy": false
+      },
+      {
+        "exists": true,
+        "zElevation": 39.06976921613826,
+        "xIndex": 8,
+        "yIndex": 4,
+        "shapeType": "SQUARE",
+        "isPointy": false
+      },
+      {
+        "exists": true,
+        "zElevation": 39.06976921613826,
+        "xIndex": 9,
+        "yIndex": 4,
+        "shapeType": "SQUARE",
+        "isPointy": false
+      }
+    ],
+    [
+      {
+        "exists": true,
+        "zElevation": 49.99999911286109,
+        "xIndex": 0,
+        "yIndex": 5,
+        "shapeType": "SQUARE",
+        "isPointy": false
+      },
+      {
+        "exists": true,
+        "zElevation": 49.99999911286109,
+        "xIndex": 1,
+        "yIndex": 5,
+        "shapeType": "SQUARE",
+        "isPointy": false
+      },
+      {
+        "exists": true,
+        "zElevation": 49.99999911286109,
+        "xIndex": 2,
+        "yIndex": 5,
+        "shapeType": "SQUARE",
+        "isPointy": false
+      },
+      {
+        "exists": true,
+        "zElevation": 49.99999911286109,
+        "xIndex": 3,
+        "yIndex": 5,
+        "shapeType": "SQUARE",
+        "isPointy": false
+      },
+      {
+        "exists": true,
+        "zElevation": 49.99999911286109,
+        "xIndex": 4,
+        "yIndex": 5,
+        "shapeType": "SQUARE",
+        "isPointy": false
+      },
+      {
+        "exists": true,
+        "zElevation": 49.99999911286109,
+        "xIndex": 5,
+        "yIndex": 5,
+        "shapeType": "SQUARE",
+        "isPointy": false
+      },
+      {
+        "exists": true,
+        "zElevation": 29.0697687725688,
+        "xIndex": 6,
+        "yIndex": 5,
+        "shapeType": "SQUARE",
+        "isPointy": false
+      },
+      {
+        "exists": true,
+        "zElevation": 29.0697687725688,
+        "xIndex": 7,
+        "yIndex": 5,
+        "shapeType": "SQUARE",
+        "isPointy": false
+      },
+      {
+        "exists": true,
+        "zElevation": 39.06976921613826,
+        "xIndex": 8,
+        "yIndex": 5,
+        "shapeType": "SQUARE",
+        "isPointy": false
+      },
+      {
+        "exists": true,
+        "zElevation": 39.06976921613826,
+        "xIndex": 9,
+        "yIndex": 5,
+        "shapeType": "SQUARE",
+        "isPointy": false
+      }
+    ],
+    [
+      {
+        "exists": true,
+        "zElevation": 68.83720930232558,
+        "xIndex": 0,
+        "yIndex": 6,
+        "shapeType": "SQUARE",
+        "isPointy": false
+      },
+      {
+        "exists": true,
+        "zElevation": 68.83720930232558,
+        "xIndex": 1,
+        "yIndex": 6,
+        "shapeType": "SQUARE",
+        "isPointy": false
+      },
+      {
+        "exists": true,
+        "zElevation": 68.83720930232558,
+        "xIndex": 2,
+        "yIndex": 6,
+        "shapeType": "SQUARE",
+        "isPointy": false
+      },
+      {
+        "exists": true,
+        "zElevation": 68.83720930232558,
+        "xIndex": 3,
+        "yIndex": 6,
+        "shapeType": "SQUARE",
+        "isPointy": false
+      },
+      {
+        "exists": true,
+        "zElevation": 49.99999911286109,
+        "xIndex": 4,
+        "yIndex": 6,
+        "shapeType": "SQUARE",
+        "isPointy": false
+      },
+      {
+        "exists": true,
+        "zElevation": 49.99999911286109,
+        "xIndex": 5,
+        "yIndex": 6,
+        "shapeType": "SQUARE",
+        "isPointy": false
+      },
+      {
+        "exists": true,
+        "zElevation": 29.0697687725688,
+        "xIndex": 6,
+        "yIndex": 6,
+        "shapeType": "SQUARE",
+        "isPointy": false
+      },
+      {
+        "exists": true,
+        "zElevation": 29.0697687725688,
+        "xIndex": 7,
+        "yIndex": 6,
+        "shapeType": "SQUARE",
+        "isPointy": false
+      },
+      {
+        "exists": true,
+        "zElevation": 39.06976921613826,
+        "xIndex": 8,
+        "yIndex": 6,
+        "shapeType": "SQUARE",
+        "isPointy": false
+      },
+      {
+        "exists": true,
+        "zElevation": 39.06976921613826,
+        "xIndex": 9,
+        "yIndex": 6,
+        "shapeType": "SQUARE",
+        "isPointy": false
+      }
+    ],
+    [
+      {
+        "exists": true,
+        "zElevation": 68.83720930232558,
+        "xIndex": 0,
+        "yIndex": 7,
+        "shapeType": "SQUARE",
+        "isPointy": false
+      },
+      {
+        "exists": true,
+        "zElevation": 68.83720930232558,
+        "xIndex": 1,
+        "yIndex": 7,
+        "shapeType": "SQUARE",
+        "isPointy": false
+      },
+      {
+        "exists": true,
+        "zElevation": 68.83720930232558,
+        "xIndex": 2,
+        "yIndex": 7,
+        "shapeType": "SQUARE",
+        "isPointy": false
+      },
+      {
+        "exists": true,
+        "zElevation": 68.83720930232558,
+        "xIndex": 3,
+        "yIndex": 7,
+        "shapeType": "SQUARE",
+        "isPointy": false
+      },
+      {
+        "exists": true,
+        "zElevation": 49.99999911286109,
+        "xIndex": 4,
+        "yIndex": 7,
+        "shapeType": "SQUARE",
+        "isPointy": false
+      },
+      {
+        "exists": true,
+        "zElevation": 49.99999911286109,
+        "xIndex": 5,
+        "yIndex": 7,
+        "shapeType": "SQUARE",
+        "isPointy": false
+      },
+      {
+        "exists": true,
+        "zElevation": 29.0697687725688,
+        "xIndex": 6,
+        "yIndex": 7,
+        "shapeType": "SQUARE",
+        "isPointy": false
+      },
+      {
+        "exists": true,
+        "zElevation": 29.0697687725688,
+        "xIndex": 7,
+        "yIndex": 7,
+        "shapeType": "SQUARE",
+        "isPointy": false
+      },
+      {
+        "exists": true,
+        "zElevation": 39.06976921613826,
+        "xIndex": 8,
+        "yIndex": 7,
+        "shapeType": "SQUARE",
+        "isPointy": false
+      },
+      {
+        "exists": true,
+        "zElevation": 39.06976921613826,
+        "xIndex": 9,
+        "yIndex": 7,
+        "shapeType": "SQUARE",
+        "isPointy": false
+      }
+    ],
+    [
+      {
+        "exists": true,
+        "zElevation": 58.372093023255815,
+        "xIndex": 0,
+        "yIndex": 8,
+        "shapeType": "SQUARE",
+        "isPointy": false
+      },
+      {
+        "exists": true,
+        "zElevation": 58.372093023255815,
+        "xIndex": 1,
+        "yIndex": 8,
+        "shapeType": "SQUARE",
+        "isPointy": false
+      },
+      {
+        "exists": true,
+        "zElevation": 68.83720930232558,
+        "xIndex": 2,
+        "yIndex": 8,
+        "shapeType": "SQUARE",
+        "isPointy": false
+      },
+      {
+        "exists": true,
+        "zElevation": 68.83720930232558,
+        "xIndex": 3,
+        "yIndex": 8,
+        "shapeType": "SQUARE",
+        "isPointy": false
+      },
+      {
+        "exists": true,
+        "zElevation": 49.99999911286109,
+        "xIndex": 4,
+        "yIndex": 8,
+        "shapeType": "SQUARE",
+        "isPointy": false
+      },
+      {
+        "exists": true,
+        "zElevation": 49.99999911286109,
+        "xIndex": 5,
+        "yIndex": 8,
+        "shapeType": "SQUARE",
+        "isPointy": false
+      },
+      {
+        "exists": true,
+        "zElevation": 29.0697687725688,
+        "xIndex": 6,
+        "yIndex": 8,
+        "shapeType": "SQUARE",
+        "isPointy": false
+      },
+      {
+        "exists": true,
+        "zElevation": 29.0697687725688,
+        "xIndex": 7,
+        "yIndex": 8,
+        "shapeType": "SQUARE",
+        "isPointy": false
+      },
+      {
+        "exists": true,
+        "zElevation": 39.06976921613826,
+        "xIndex": 8,
+        "yIndex": 8,
+        "shapeType": "SQUARE",
+        "isPointy": false
+      },
+      {
+        "exists": true,
+        "zElevation": 39.06976921613826,
+        "xIndex": 9,
+        "yIndex": 8,
+        "shapeType": "SQUARE",
+        "isPointy": false
+      }
+    ],
+    [
+      {
+        "exists": true,
+        "zElevation": 58.372093023255815,
+        "xIndex": 0,
+        "yIndex": 9,
+        "shapeType": "SQUARE",
+        "isPointy": false
+      },
+      {
+        "exists": true,
+        "zElevation": 58.372093023255815,
+        "xIndex": 1,
+        "yIndex": 9,
+        "shapeType": "SQUARE",
+        "isPointy": false
+      },
+      {
+        "exists": true,
+        "zElevation": 68.83720930232558,
+        "xIndex": 2,
+        "yIndex": 9,
+        "shapeType": "SQUARE",
+        "isPointy": false
+      },
+      {
+        "exists": true,
+        "zElevation": 68.83720930232558,
+        "xIndex": 3,
+        "yIndex": 9,
+        "shapeType": "SQUARE",
+        "isPointy": false
+      },
+      {
+        "exists": true,
+        "zElevation": 49.99999911286109,
+        "xIndex": 4,
+        "yIndex": 9,
+        "shapeType": "SQUARE",
+        "isPointy": false
+      },
+      {
+        "exists": true,
+        "zElevation": 49.99999911286109,
+        "xIndex": 5,
+        "yIndex": 9,
+        "shapeType": "SQUARE",
+        "isPointy": false
+      },
+      {
+        "exists": true,
+        "zElevation": 29.0697687725688,
+        "xIndex": 6,
+        "yIndex": 9,
+        "shapeType": "SQUARE",
+        "isPointy": false
+      },
+      {
+        "exists": true,
+        "zElevation": 29.0697687725688,
+        "xIndex": 7,
+        "yIndex": 9,
+        "shapeType": "SQUARE",
+        "isPointy": false
+      },
+      {
+        "exists": true,
+        "zElevation": 39.06976921613826,
+        "xIndex": 8,
+        "yIndex": 9,
+        "shapeType": "SQUARE",
+        "isPointy": false
+      },
+      {
+        "exists": true,
+        "zElevation": 39.06976921613826,
+        "xIndex": 9,
+        "yIndex": 9,
+        "shapeType": "SQUARE",
+        "isPointy": false
+      }
+    ]
+  ],
+  "tileShape": "SQUARE"
+}

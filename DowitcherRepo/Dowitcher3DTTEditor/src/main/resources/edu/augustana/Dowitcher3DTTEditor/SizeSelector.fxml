@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1500.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.augustana.Dowitcher3DTTEditor.SizeController">
+   <children>
+      <Label layoutX="630.0" layoutY="100.0" text="Enter Board Size:">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <TextField fx:id="widthTextArea" layoutX="650.0" layoutY="200.0" promptText="Enter Width" text="10">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="heightTextArea" layoutX="650.0" layoutY="250.0" promptText="Enter Height" text="10">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <Button fx:id="backButton" layoutX="600.0" layoutY="400.0" mnemonicParsing="false" onAction="#switchToIntro" prefHeight="50.0" prefWidth="100.0" text="Back" />
+      <Button fx:id="nextButton" layoutX="830.0" layoutY="400.0" mnemonicParsing="false" onAction="#nextButtonAction" prefHeight="50.0" prefWidth="100.0" text="Next" />
+      <Label layoutX="585.0" layoutY="206.0" text="Width:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="582.0" layoutY="256.0" text="Height:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <RadioButton fx:id="squareTiles" layoutX="607.0" layoutY="333.0" mnemonicParsing="false" selected="true" text="Square Tiles" />
+      <RadioButton fx:id="hexagonalTiles" layoutX="821.0" layoutY="333.0" mnemonicParsing="false" text="Hexagonal Tiles" />
+   </children>
+</AnchorPane>

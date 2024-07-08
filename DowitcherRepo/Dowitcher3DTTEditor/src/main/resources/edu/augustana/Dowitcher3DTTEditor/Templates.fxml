@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+<AnchorPane prefHeight="700.0" prefWidth="1500.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.augustana.Dowitcher3DTTEditor.TemplatesController">
+   <children>
+      <AnchorPane layoutX="19.0" layoutY="14.0" prefHeight="700.0" prefWidth="1500.0">
+         <children>
+            <AnchorPane accessibleRole="MENU_ITEM" layoutX="-19.0" layoutY="-14.0" prefHeight="762.0" prefWidth="408.0">
+               <children>
+                  <Button fx:id="backButton" layoutX="181.0" layoutY="568.0" mnemonicParsing="false" onAction="#switchToIntro" text="Back" />
+                  <Button fx:id="advanceToEditorButton" layoutX="148.0" layoutY="488.0" mnemonicParsing="false" onAction="#advanceToEditorAction" text="Advance To Editor" />
+                  <ChoiceBox fx:id="templatesChoiceBox" layoutX="100.0" layoutY="250.0" onMouseClicked="#changeTemplate" prefHeight="100.0" prefWidth="200.0" styleClass="&quot;center-aligned&quot;" />
+               </children>
+            </AnchorPane>
+            <Pane fx:id="paneToHoldCanvas" layoutX="656.0" layoutY="67.0" prefHeight="800.0" prefWidth="800.0" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
